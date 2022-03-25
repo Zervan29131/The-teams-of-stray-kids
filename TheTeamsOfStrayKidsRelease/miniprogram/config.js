@@ -4,14 +4,14 @@
 module.exports = {
   // 科普页图片
   science_imgs: [
-    "cloud://yun01-8gnfwx4e248a6ac4.7975-yun01-8gnfwx4e248a6ac4-1309624129/系统/科普1.png",
-    "cloud://yun01-8gnfwx4e248a6ac4.7975-yun01-8gnfwx4e248a6ac4-1309624129/系统/科普2.png",
-    "cloud://yun01-8gnfwx4e248a6ac4.7975-yun01-8gnfwx4e248a6ac4-1309624129/系统/科普3.png",
-    "cloud://yun01-8gnfwx4e248a6ac4.7975-yun01-8gnfwx4e248a6ac4-1309624129/系统/科普4.png",
-    "cloud://yun01-8gnfwx4e248a6ac4.7975-yun01-8gnfwx4e248a6ac4-1309624129/系统/科普5.png",
+    "cloud://yun01-8gnfwx4e248a6ac4.7975-yun01-8gnfwx4e248a6ac4-1309624129/系统/science1.png",
+    "cloud://yun01-8gnfwx4e248a6ac4.7975-yun01-8gnfwx4e248a6ac4-1309624129/系统/science2.png",
+    "cloud://yun01-8gnfwx4e248a6ac4.7975-yun01-8gnfwx4e248a6ac4-1309624129/系统/science3.png",
+    "cloud://yun01-8gnfwx4e248a6ac4.7975-yun01-8gnfwx4e248a6ac4-1309624129/系统/science4.png",
+    "cloud://yun01-8gnfwx4e248a6ac4.7975-yun01-8gnfwx4e248a6ac4-1309624129/系统/science5.png",
   ],
   // 赞赏码图片
-  reward_img: "cloud://yun01-8gnfwx4e248a6ac4.7975-yun01-8gnfwx4e248a6ac4-1309624129/系统/alipay.png",
+  // reward_img: "cloud://yun01-8gnfwx4e248a6ac4.7975-yun01-8gnfwx4e248a6ac4-1309624129/系统/alipay.png",
   // 新猫问卷图片
   feedback_wj_img: "cloud://yun01-8gnfwx4e248a6ac4.7975-yun01-8gnfwx4e248a6ac4-1309624129/系统/信息添加.png",
   // 小程序菊花码图片

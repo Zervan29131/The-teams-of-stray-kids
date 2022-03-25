@@ -13,6 +13,18 @@ Page({
     github_link: "https://github.com/sysucats/zhongdamaopu",
     update_log: [
       {
+        version: "v1.1.2",
+        content: [
+          "处理science的bug",
+        ],
+        time: "2021/03/25"
+      },   {
+        version: "v1.1.1",
+        content: [
+          "取消了赞赏码",
+        ],
+        time: "2021/03/24"
+      },   {
         version: "v1.1.0",
         content: [
           "更改主题色调为#21cefe",

@@ -14,7 +14,7 @@
     
     <view class="buttons">
       <!-- 打开赞赏码 -->
-      <button bindtap='openImg' style='flex-basis:100%;'>赞赏码</button>
+      <button bindtap='openImg' style='flex-basis:100%;'>赞赏码（暂未开放）</button>
 
       <!-- 打开激励广告 -->
       <button wx:if="{{showAdBlock}}" class='primary' bindtap='openAd' style='flex-basis:100%;'>观看广告</button>
