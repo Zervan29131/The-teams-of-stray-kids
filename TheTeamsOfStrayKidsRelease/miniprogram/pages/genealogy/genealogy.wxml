@@ -60,34 +60,34 @@
         <view class='line first'>
           <text class='name'>{{item.name}}</text>
           <block wx:if='{{item.gender}}'>
-            <image mode='aspectFill' class='gender' wx:if='{{item.gender === "公"}}' src="../../images/card/card/male.png"></image>
-            <image mode='aspectFill' class='gender' wx:if='{{item.gender === "母"}}' src="../../images/card/card/female.png"></image>
+            <image mode='aspectFill' class='gender' wx:if='{{item.gender === "公"}}' src="../../images/card/male.png"></image>
+            <image mode='aspectFill' class='gender' wx:if='{{item.gender === "母"}}' src="../../images/card/female.png"></image>
           </block>
           <view wx:if='{{item.adopt}}' class='adopt'>{{adopt_desc[item.adopt]}}</view>
           <view wx:if='{{item.to_star}}' class='to_star'>{{text_cfg.genealogy.to_star_tip}}</view>
           <view class='popularity'>
-            <image src='../../images/card/card/pop.png'></image>
+            <image src='../../images/card/pop.png'></image>
             <text> ({{item.popularity + (item.photo_count_total? item.photo_count_total * photoPopWeight: 0) }})</text>
           </view>
           <view class='comment' wx:if="{{item.comment_count}}">
-            <image src='../../images/card/card/comment.png'></image>
+            <image src='../../images/card/comment.png'></image>
             <text> ({{item.comment_count}})</text>
           </view>
         </view>
         <view class='line' wx:if="{{item.birthday}}">
-          <image mode='aspectFit' class='icon' src='../../images/card/card/birth.png'></image>
+          <image mode='aspectFit' class='icon' src='../../images/card/birth.png'></image>
           <text>{{item.birthday}}</text>
         </view>
         <view class='line'>
-          <image mode='aspectFit' class='icon' src='../../images/card/card/cat.png'></image>
+          <image mode='aspectFit' class='icon' src='../../images/card/cat.png'></image>
           <text class="characteristics">{{item.characteristics_string}}</text>
         </view>
         <view class='line' wx:if="{{item.habit}}">
-          <image mode='aspectFit' class='icon' src='../../images/card/card/heart.png'></image>
+          <image mode='aspectFit' class='icon' src='../../images/card/heart.png'></image>
           <text class="habit">{{item.habit}}</text>
         </view>
         <view class='line'>
-          <image mode='aspectFit' class='icon' src='../../images/card/card/pos.png'></image>
+          <image mode='aspectFit' class='icon' src='../../images/card/pos.png'></image>
           <text>{{(item.campus + item.area) || '-'}}</text>
           <view class='index'><text decode='true'>&lt; {{index+1}}/{{catsMax}} &gt;</text></view>
         </view>
