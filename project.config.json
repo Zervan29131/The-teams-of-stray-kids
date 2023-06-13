@@ -38,7 +38,8 @@
     "useCompilerPlugins": false,
     "lazyloadPlaceholderEnable": false,
     "ignoreUploadUnusedFiles": true,
-    "useStaticServer": true
+    "useStaticServer": true,
+    "condition": false
   },
   "appid": "wx02043a3c99286e7d",
   "projectname": "TheTeamsOfStrayKidsRelease",
